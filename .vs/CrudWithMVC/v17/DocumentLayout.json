@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|c:\\users\\legion\\desktop\\mypersonal .netprojects\\crudwithmvc\\crudwithmvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|solutionrelative:crudwithmvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|c:\\users\\legion\\desktop\\mypersonal .netprojects\\crudwithmvc\\crudwithmvc\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|solutionrelative:crudwithmvc\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|c:\\users\\legion\\desktop\\mypersonal .netprojects\\crudwithmvc\\crudwithmvc\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|solutionrelative:crudwithmvc\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|c:\\users\\legion\\desktop\\mypersonal .netprojects\\crudwithmvc\\crudwithmvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|solutionrelative:crudwithmvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|c:\\users\\legion\\desktop\\mypersonal .netprojects\\crudwithmvc\\crudwithmvc\\enums\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|solutionrelative:crudwithmvc\\enums\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|c:\\users\\legion\\desktop\\mypersonal .netprojects\\crudwithmvc\\crudwithmvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D50748-F83A-4CD9-8016-A60A646229C8}|CrudWithMVC\\CrudWithMVC.csproj|solutionrelative:crudwithmvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 229,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "CrudWithMVC\\Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "CrudWithMVC\\Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwCIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T10:30:10.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Enums\\Category.cs",
+              "RelativeDocumentMoniker": "CrudWithMVC\\Enums\\Category.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Enums\\Category.cs",
+              "RelativeToolTip": "CrudWithMVC\\Enums\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:58:01.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Views\\Product\\CreateProduct.cshtml",
+              "RelativeDocumentMoniker": "CrudWithMVC\\Views\\Product\\CreateProduct.cshtml",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Views\\Product\\CreateProduct.cshtml",
+              "RelativeToolTip": "CrudWithMVC\\Views\\Product\\CreateProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T08:39:31.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudWithMVC\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "CrudWithMVC\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T08:01:52.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CrudWithMVC\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CrudWithMVC\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAMwEgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T04:58:20.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "CrudWithMVC\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\MyPersonal .NetProjects\\CrudWithMVC\\CrudWithMVC\\Models\\Product.cs",
+              "RelativeToolTip": "CrudWithMVC\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T04:47:16.061Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿@model CrudWithMVC.Models.Product;
+@using CrudWithMVC.Enums;
+@{
+	ViewData["Title"] = "CreateProduct";
+}
+
+@using (Html.BeginForm("CreateProduct", "Product", FormMethod.Post))
+{
+	<div class="form-group">
+		@Html.LabelFor(m => m.Name)
+		@Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.Name)
+	</div>
+	<div class="form-group">
+		@Html.LabelFor(m => m.Category)
+		@Html.DropDownList("Category",
+				Html.GetEnumSelectList<Categories>(),
+				"Select Category")
+		@Html.ValidationMessageFor(m => m.Category)
+	</div>
+	<div class="form-group">
+		@Html.LabelFor(m => m.Price)
+		@Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.Price)
+	</div>
+	<div class="form-group">
+		@Html.LabelFor(m => m.ExpiryDate)
+		@Html.TextBoxFor(m => m.ExpiryDate, new { @class = "form-control", @id = "datepicker" })
+		@Html.ValidationMessageFor(m => m.Price)
+	</div>
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary">Create</button>
+	</div>
+
+}
