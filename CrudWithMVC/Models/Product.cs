@@ -13,6 +13,8 @@ namespace CrudWithMVC.Models
         [Required]
         public double Price { get; set; }
         [Required]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateOnly ExpiryDate { get; set; }
     }
 }

@@ -134,3 +134,4 @@ C:\Users\Legion\Desktop\MyPersonal .NetProjects\CrudWithMVC\CrudWithMVC\obj\Debu
 C:\Users\Legion\Desktop\MyPersonal .NetProjects\CrudWithMVC\CrudWithMVC\obj\Debug\net8.0\CrudWithMVC.pdb
 C:\Users\Legion\Desktop\MyPersonal .NetProjects\CrudWithMVC\CrudWithMVC\obj\Debug\net8.0\CrudWithMVC.genruntimeconfig.cache
 C:\Users\Legion\Desktop\MyPersonal .NetProjects\CrudWithMVC\CrudWithMVC\obj\Debug\net8.0\ref\CrudWithMVC.dll
+C:\Users\Legion\Desktop\MyPersonal .NetProjects\CrudWithMVC\CrudWithMVC\obj\Debug\net8.0\CrudWithMVC.sourcelink.json

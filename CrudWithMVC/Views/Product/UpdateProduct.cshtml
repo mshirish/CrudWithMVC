@@ -1,11 +1,14 @@
 ﻿@model CrudWithMVC.Models.Product;
 @using CrudWithMVC.Enums;
 @{
-	ViewData["Title"] = "CreateProduct";
+	ViewData["Title"] = "Update Product";
 }
+<h3>@ViewData["Title"]</h3>
+<hr/>
 
-@using (Html.BeginForm("CreateProduct", "Product", FormMethod.Post))
+@using (Html.BeginForm("UpdateProduct", "Product", FormMethod.Post))
 {
+	<input type="hidden" asp-for="Id" />
 	<div class="form-group">
 		@Html.LabelFor(m => m.Name)
 		@Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
@@ -26,10 +29,21 @@
 	<div class="form-group">
 		@Html.LabelFor(m => m.ExpiryDate)
 		@Html.TextBoxFor(m => m.ExpiryDate, new { @class = "form-control", @id = "datepicker" })
-		@Html.ValidationMessageFor(m => m.Price)
+		@Html.ValidationMessageFor(m => m.ExpiryDate)
 	</div>
 	<div class="form-group">
-		<button type="submit" class="btn btn-primary">Create</button>
+		<button type="submit" class="btn btn-primary">Update</button>
+		<a asp-action="Index" class="btn btn-primary">Cancel</a>
 	</div>
+}
 
+@section Scripts
+  {
+	<script>
+		$(function () {
+			$("#datepicker").datepicker({
+				dateFormat: 'dd/MM/yy'
+			});
+		});
+	</script>
 }

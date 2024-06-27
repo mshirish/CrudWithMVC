@@ -1,0 +1,85 @@
+# Visual Studio related files and directories
+.vs/
+.vscode/
+.vscode/*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.obj
+*.exe
+*.dll
+*.pdb
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.msixupload
+
+# Build directories
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Team-based settings
+*.tmproj
+*.tss
+*.tsscache
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folders to ignore
+**/Backup*/
+**/Archive*/
+**/Temporary*/ 
+
+# Other files and folders
+.project
+*.tmp
+*.temp
+*.log
+*.diff
+*.patch
+*.class
+*.dll
+*.exe
+*.sql
+*.sqlite
+*.pyc
+*.pyo
+*.swp
+*.swo
+.DS_Store
+*.jar
+*.war
+*.ear
+*.cache
+
+# JetBrains Rider
+.idea/
+*.sln.iml

@@ -1,19 +1,21 @@
-﻿﻿
-@model IEnumerable<Product>;
+﻿@model IEnumerable<Product>;
+
 @{
     ViewData["Title"] = "Product Management";
 }
 
 <h3>@ViewData["Title"]</h3>
 
+<hr/>
+
 <p>
-    <a asp-action="CreateProduct" asp-controller="Product" class="btn btn-primary">Add</a>
+    <a asp-action="CreateProduct" asp-controller="Product" class="btn btn-primary">Add Product</a>
 </p>
 
 
-<table class="table table-responsive table-hover table-striped shadow">
+<table class="table table-hover table-striped shadow">
     <thead class="table-dark center">
-        <tr>
+        <tr class="text-center">
             <th>
                 @Html.DisplayNameFor(Model => Model.Name)
             </th>
@@ -38,27 +40,86 @@
             @foreach (var product in Model)
             {
                 <tr class="text-center">
-                    <th>
+                    <td>
                         @Html.DisplayFor(item => product.Name)
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         @Html.DisplayFor(item => product.Category)
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         @Html.DisplayFor(item => product.Price)
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         @Html.DisplayFor(item => product.ExpiryDate)
-                    </th>
-                    <th>
-                        <a>View Details</a>
-                        <a>Edit</a>
-                        <a>Delete</a>
-                    </th>
+                    </td>
+                    <td>
+                        <a asp-route-id="@product.Id" asp-action="ViewProductDetails" class="btn btn-success">Details</a>
+                        <a asp-route-id="@product.Id" asp-action="UpdateProduct" class="btn btn-primary">Edit</a>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal" data-id="@product.Id">
+                            Delete
+                        </button>
+                    </td>
                 </tr>
             }
-
         }
     </tbody>
 </table>
+
+<!-- Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Delete Item</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Are you sure you would like to delete the item?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button id="btnDelete" type="button" class="btn btn-primary">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var deleteId;
+
+            // Capture the product ID when the delete button is clicked
+            $('#deleteModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                deleteId = button.data('id');
+            });
+
+            // Perform the delete action when the confirm button is clicked
+            $('#btnDelete').click(function () {
+                var deleteUrl = '@Url.Action("DeleteProductAsync", "Product")/' + deleteId;
+                var token = $('input[name="__RequestVerificationToken"]').val();
+
+                $.ajax({
+                    url: deleteUrl,
+                    type: 'DELETE',
+                    headers: {
+                        'RequestVerificationToken': token
+                    },
+                    success: function (result) {
+                        $('#deleteModal').modal('hide');
+                        location.reload(); // Reload the page to see the changes
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(xhr.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+}
 
